@@ -27,6 +27,8 @@ The dataset we used, as explained above, was generated using a script from the *
 
 This section is about the models created by group 7 for the work of detecting COVID-19 in x-ray images. All notebooks with their respective model follow the pipeline exposed in the standard notebook, [Covid_19_Standard_Notebook.ipynb](models/).
 
+
+
 Link to model| Short description | 
 --- | --- | ---
 [First Example](models/FirstExample/FirstExample.ipynb) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | 
