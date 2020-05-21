@@ -29,7 +29,7 @@ This section is about the models created by group 7 for the work of detecting CO
 
 Link to model| Short description | 
 --- | --- | ---
-[First Example](models/First\Example/FirstExample.ipynb) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | 
+[First Example](models/FirstExample/FirstExample.ipynb) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | 
 [VGG16]() |  |
 [VGG19](models/VGG19/FirstExample.ipynb) | This notebook use the  VGG19 network architecture.|
 [X]()| |
