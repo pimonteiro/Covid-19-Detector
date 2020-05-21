@@ -6,7 +6,7 @@ This project was made on behalf of a subject on our 4th year of the Master's Deg
 ## Dataset
 The dataset we used, as explained above, was generated using a script from the **COVID-Net** repository. The file was then uploaded to my personal drive, where we must unzip it in order to use it. Link for the dataset: https://drive.google.com/open?id=1EtA92aU1GmcRCR00hTxmyC2kfQIEYx-L
 
- [!IMPORTANT]
+ >[!IMPORTANT]
 ## Models
 This section is about the models created by group 7 for the work of detecting COVID-19 in x-ray images. All notebooks with their respective model follow the pipeline exposed in the standard notebook.
 
