@@ -31,8 +31,9 @@ This section is about the models created by group 7 for the work of detecting CO
 
 Link to model| Short description | 
 --- | --- | 
-[First Example](models/FirstExample/) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | 
-[VGG16]() |  |
-[VGG19](models/VGG19/) | This notebook use the  VGG19 network architecture.|
-[XCeption](models/XCeption/)| |
+[Covid_19_First Example](models/FirstExample/) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | 
+[Covid_19_VGG16](models/VGG16/) |  |
+[Covid_19_VGG19](models/VGG19/) | This notebook use the  VGG19 network architecture.|
+[Covid_19_XCeption](models/XCeption/)| |
+[Covid_19_ResNet](models/ResNet/)| |
 
