@@ -35,5 +35,6 @@ Link to model| Short description |
 [Covid_19_VGG16](models/VGG16/) |  |
 [Covid_19_VGG19](models/VGG19/) | This notebook use the  VGG19 network architecture.|
 [Covid_19_XCeption](models/XCeption/)| |
-[Covid_19_ResNet](models/ResNet/)| |
+[Covid_19_ResNet50](models/ResNet50/)| |
+[Covid_19_LeNet](models/LeNet/)| |
 
