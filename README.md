@@ -30,7 +30,7 @@ This section is about the models created by group 7 for the work of detecting CO
 
 
 Link to model| Short description | Articles About| 
---- | --- | --- | ----
+--- | --- | --- | 
 [Covid_19_First Example](models/FirstExample/) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | [Article](https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5)
 [Covid_19_VGG16](models/VGG16/) | This notebook use the  VGG16 network architecture.| [Article](https://arxiv.org/abs/1409.1556)
 [Covid_19_VGG19](models/VGG19/) | This notebook use the  VGG19 network architecture.|[Article](https://arxiv.org/abs/1409.1556)
