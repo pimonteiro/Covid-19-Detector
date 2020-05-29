@@ -18,6 +18,8 @@ The developer team is three master students from University of Minho, Braga, Por
 ## Dataset
 The dataset we used, as explained above, was generated using a script from the **COVID-Net** repository. The file was then uploaded to my personal drive, where we must unzip it in order to use it. Link for the dataset: https://drive.google.com/open?id=1EtA92aU1GmcRCR00hTxmyC2kfQIEYx-L
 
+Edit:
+A new dataset was made to balance the data between the 3 classe: https://drive.google.com/file/d/1_X_cO5INBY3EfSGEYlMe6hmc4ni2bujH/view?usp=sharing
 
 
 
