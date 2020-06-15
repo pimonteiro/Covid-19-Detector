@@ -22,6 +22,18 @@ Edit:
 A new dataset was made to balance the data between the 3 classe: https://drive.google.com/file/d/1_X_cO5INBY3EfSGEYlMe6hmc4ni2bujH/view?usp=sharing
 
 
+|Train_Data | Original | Balanced |
+|:---------:|:--------:|:--------:|
+|  COVID-19 |    223   |   1561   |
+| Pneumonia |   5451   |   1700   |
+|   Normal  |   7966   |   1700   |
+
+| Test_Data  |  |
+|:----------:|:--------:|
+|  COVID-19  |    31    |
+|  Pneumonia |    594   |
+|   Normal   |    885   |
+
 
 ## Models
 
