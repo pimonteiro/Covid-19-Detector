@@ -21,7 +21,6 @@ The dataset we used, as explained above, was generated using a script from the *
 Edit:
 A new dataset was made to balance the data between the 3 classe: https://drive.google.com/file/d/1_X_cO5INBY3EfSGEYlMe6hmc4ni2bujH/view?usp=sharing
 
-
 |Train_Data | Original | Balanced |
 |:---------:|:--------:|:--------:|
 |  COVID-19 |    223   |   1561   |
@@ -34,6 +33,7 @@ A new dataset was made to balance the data between the 3 classe: https://drive.g
 |  Pneumonia |    594   |
 |   Normal   |    885   |
 
+This was created by removing a lot of records with Pneumonia and Normal, randomly and generating new data of COVID-19 using some transformations: each real image was transformed 6 times. This was also made before the computation to speed up the process of training the various models (making image augmentation during the training caused epochs to take between 5 to 10 minutes to complete).
 
 ## Models
 
