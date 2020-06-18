@@ -105,3 +105,8 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-MIoGg
 
 #### Classification Report
 ![Classification Report](vgg16_3_cm.png "Classification Report")
+
+
+# Conclusion
+
+Training from scratch the VGG16 architecture proved to not wield good results, even tho on the similar VGG19 architecture appeared to have reasonable success (compared to this one). If we were to run it again it could maybe give similar results to the VGG19, but it would still be bad compared to retraining it with the existing trained weights. As such, the 84% recall achieved on detecting COVID-19 and 90% on the remaining cases were, so far, the best we have got. 
