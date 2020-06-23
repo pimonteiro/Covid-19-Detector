@@ -51,4 +51,6 @@ Link to model| Short description | Articles About|
 [Covid_19_XCeption](models/XCeption/)| This notebook use the  XCeption network architecture |[Article](https://arxiv.org/abs/1610.02357)
 [Covid_19_ResNet50](models/ResNet50/)| This notebook use the  ResNet50 network architecture | [Article](https://arxiv.org/abs/1512.03385)
 [Covid_19_LeNet](models/LeNet/)| This notebook use the  LeNet network architecture.| [Article](https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/)
+[Covid_19_MobileNetV2](models/MobileNetV2/)| This notebook use the  MobileNetV2 network architecture | [Article](https://arxiv.org/abs/1801.04381)
+
 
