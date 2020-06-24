@@ -2,7 +2,7 @@
 <img align="left" src="https://media.giphy.com/media/UUsOy6IWmzw6mmeOpQ/giphy.gif" width="200" height="200" /> 
 
 Covid-19 XRay Detector
-This project was made on behalf of a subject on our 4th year of the Master's Degree on Data Science. It's goal is to achieve a model viable enough to produce good results on distinguishing cases of Pneumonia, Covid-19 and the absence of any of these. Due to the lack of a single source of data to use to train our models, we used a data-generator from "COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest Radiography Images", made by Linda Wang, Zhong Qiu Lin and Alexander Wong. Link here: <https://github.com/lindawangg/COVID-Net>. The only part we used was the data-generator provided but with some modifications to attend our needs. Thank you to all the participants of the COVID-Net for their hard-work on making it this far. The reason we didn't simply fork the main repository was to make it simpler for evaluation.
+This project was made on behalf of a subject on our 4th year of the Master's Degree on Data Science. It's goal is to achieve a model viable enough to produce good results on distinguishing cases of Pneumonia, Covid-19 and the absence of these. Due to the lack of a single source of data to train our models, we used a data-generator from "COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest Radiography Images", made by Linda Wang, Zhong Qiu Lin and Alexander Wong. Link here: <https://github.com/lindawangg/COVID-Net>. The only part we used was the data-generator provided but with some modifications to attend our needs. Thank you to all the participants of the COVID-Net for their hard-work on making it this far. The reason we didn't simply fork the main repository was to make it simpler for evaluation.
 
 
 
@@ -38,7 +38,7 @@ This was created by removing a lot of records with Pneumonia and Normal, randoml
 
 <img align="right" src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif" width="150" height="150"/> 
 
-This section is about the models created by group 7 for the work of detecting COVID-19 in x-ray images. All notebooks with their respective model follow the pipeline exposed in the standard notebook, [Covid_19_Standard_Notebook.ipynb](models/Covid_19_Standard_Notebook.ipynb).
+Here we discuss the models created by our group. All notebooks with their respective model follow the pipeline exposed in the standard notebook, [Covid_19_Standard_Notebook.ipynb](models/Covid_19_Standard_Notebook.ipynb), and are displayed on the following table:
 
 
 
@@ -52,5 +52,27 @@ Link to model| Short description | Articles About|
 [Covid_19_LeNet](models/LeNet/)| This notebook uses the  LeNet network architecture.| [Article](https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/)
 [Covid_19_MobileNetV2](models/MobileNetV2/)| This notebook uses the  MobileNetV2 network architecture | [Article](https://arxiv.org/abs/1801.04381)
 [Covid_19_CXRP](models/CXRP/)| This notebook uses a newly created architecture - CXRP (Covid Xray Profiler) |
+[Covid_19_BraDetect](models/BraDetect/)| This notebook uses a newly created architecture - BraDetect |
+[Covid_19_SCNN](models/SCNN/)| This notebook uses a newly created architecture - SCNN (Simple Covid-19 Neural Network) |
 
 
+## Conclusion
+
+
+|             | Accuracy |          | Precision |           |          | Recall |           |         Notes         |
+|:-----------:|:--------:|:--------:|:---------:|:---------:|:--------:|:------:|:---------:|:---------------------:|
+|             |          | Covid-19 |   Normal  | Pneumonia | Covid-19 | Normal | Pneumonia |                       |
+|    VGG16    |    0.9   |   0.68   |    0.94   |    0.86   |   0.84   |   0.9  |    0.9    |       Retrained       |
+|    VGG19    |   0.92   |   0.68   |    0.96   |    0.87   |   0.84   |  0.91  |    0.93   |       Retrained       |
+|    LeNet    |   0.87   |   0.52   |    0.89   |    0.87   |   0.81   |  0.91  |    0.81   |                       |
+|   XCeption  |   0.79   |   0.78   |    0.91   |    0.68   |   0.23   |  0.74  |    0.89   |   Freezed; Version 2  |
+|   ResNet50  |          |          |           |           |          |        |           |                       |
+| MobileNetV2 |   0.86   |     1    |    0.97   |    0.75   |   0.71   |  0.79  |    0.97   | Retrained; Overfitted |
+|   CXRP-3B   |   0.88   |   0.42   |    0.91   |    0.89   |    0.9   |   0.9  |    0.84   |        3 Blocks       |
+|     SCNN    |          |          |           |           |          |        |           |                       |
+|  BraDetect  |          |          |           |           |          |        |           |                       |
+
+
+
+Of all the explored models the best one performance wise was the CXRP-3B, with a good balance in *recall* for all the different classes. One might think the VGG19 had a better development, but in fact the model isn't consistent enough to be have trustable predictions - the training appeared very random, even tho the predictions were right. All other models still had a very good performance, all with close numbers of *accuracy*, *precision* and *recall*.
+Despite others having better accuracy than the __CXRP-3B__, we tried to focus on the __Recall__ metric because it represents the percentage of positive cases of each class that were correctly assigned - we want to avoid giving false negatives, as well as always try to have the most confident of not having Covid-19 - reason being why we want to maximize the recall of Covid-19.

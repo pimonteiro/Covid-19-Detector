@@ -1,8 +1,5 @@
 # Model and Hyper-parameters
 
-
-
-## Importing pre-trained model with standard *dataset*
 Link to access the four models weights: https://drive.google.com/drive/folders/1-9k7zI7oOh3KLzgv7Ee7QsyAnkmgHsnV?usp=sharing
 
 <!-- First Model -->
@@ -53,10 +50,9 @@ The BraDetect was designed with the objective of being specially efficient at an
 <!-- Second Model -->
 
 __________________________________
-## BraDetect  2
+## BraDetect 2
 
-## Importing pre-trained model with balanced *dataset*
-The BraDetect was designed with the objective of being specially efficient at analyzing chest x-rays. As such, the architecture is composed of the following:
+Here we tried another setting of this network:
     
     - Conv 3x3 , 32
     - Conv 3x3 , 32
@@ -102,8 +98,7 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 __________________________
 ## BraDetect 3
 
-## Retraining pre-trained model with balanced *dataset*
-The BraDetect was designed with the objective of being specially efficient at analyzing chest x-rays. As such, the architecture is composed of the following:
+Here we tried yet another approach for this network:
 
     - Conv 3x3 , 64
     - MaxPooling2D
@@ -145,7 +140,6 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 
 ## BraDetect 4
 
-## Retraining pre-trained model with balanced *dataset*
 This is the third architecture with twice the epochs.
 
 
@@ -166,4 +160,4 @@ This is the third architecture with twice the epochs.
 
 # Conclusion
 
-Training from scratch the BraDetect architecture proved to not wield good results. The better result was third archicture was aumentation number epochs. 
+Training the BraDetect architecture proved to wield decent results, being the third attempt with increase number of epochs the best performance. Like all others, this one learned quite well all the classes with exception of the __COVID-19__, which was slighty worst. 
