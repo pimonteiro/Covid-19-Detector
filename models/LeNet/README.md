@@ -3,7 +3,7 @@
 ![Lenet Architecture](Lenetarq.png "Lenet Architecture")
 
 <!-- Model -->
-## Importing pre-trained model with standard dataset
+## Lenet Model with standard dataset
  Lenet arquitecture:
     
     - Two sets: *Convolutional Layers* and *Pooling Layers*
@@ -29,7 +29,7 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-
 
 
 
-## Importing pre-trained model with balanced dataset
+## Lenet Model with balanced dataset
 
  Lenet arquitecture:
     
