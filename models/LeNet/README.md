@@ -2,9 +2,9 @@
 
 
 <!-- Model -->
-## Model 
+## Importing pre-trained model with standard dataset
 
-## Model with balanced dataset
+## Importing pre-trained model with balanced dataset
 
  Lenet arquitecture:
     
