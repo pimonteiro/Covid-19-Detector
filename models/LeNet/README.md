@@ -1,5 +1,6 @@
 # Model and Hyper-parameters
 
+Lenetarq.png "Lenet Architecture"
 
 <!-- Model -->
 ## Importing pre-trained model with standard dataset
