@@ -3,7 +3,7 @@
 ![Lenet Architecture](Lenetarq.png "Lenet Architecture")
 
 <!-- Model -->
-## Lenet Model with standard dataset
+## Lenet adaptation Model with standard dataset
  Lenet arquitecture:
     
     - Two sets: *Convolutional Layers* and *Pooling Layers*
@@ -29,7 +29,7 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-
 
 
 
-## Lenet Model with balanced dataset
+## Lenet adaptation Model with balanced dataset
 
  Lenet arquitecture:
     
