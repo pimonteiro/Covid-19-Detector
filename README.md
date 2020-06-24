@@ -18,8 +18,7 @@ The developer team is three master students from University of Minho, Braga, Por
 ## Dataset
 The dataset we used, as explained above, was generated using a script from the **COVID-Net** repository. The file was then uploaded to my personal drive, where we must unzip it in order to use it. Link for the dataset: https://drive.google.com/open?id=1EtA92aU1GmcRCR00hTxmyC2kfQIEYx-L
 
-Edit:
-A new dataset was made to balance the data between the 3 classe: https://drive.google.com/file/d/1_X_cO5INBY3EfSGEYlMe6hmc4ni2bujH/view?usp=sharing
+Being the data so unbalaced, a new dataset was made to fix this problem: https://drive.google.com/file/d/1_X_cO5INBY3EfSGEYlMe6hmc4ni2bujH/view?usp=sharing
 
 |Train_Data | Original | Balanced |
 |:---------:|:--------:|:--------:|
@@ -46,11 +45,12 @@ This section is about the models created by group 7 for the work of detecting CO
 Link to model| Short description | Articles About| 
 --- | --- | --- | 
 [Covid_19_First Example](models/FirstExample/) | This notebook was the first developed to test and understand the augmentation techniques, transfer learning. | [Article](https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5)
-[Covid_19_VGG16](models/VGG16/) | This notebook use the  VGG16 network architecture.| [Article](https://arxiv.org/abs/1409.1556)
-[Covid_19_VGG19](models/VGG19/) | This notebook use the  VGG19 network architecture.|[Article](https://arxiv.org/abs/1409.1556)
-[Covid_19_XCeption](models/XCeption/)| This notebook use the  XCeption network architecture |[Article](https://arxiv.org/abs/1610.02357)
-[Covid_19_ResNet50](models/ResNet50/)| This notebook use the  ResNet50 network architecture | [Article](https://arxiv.org/abs/1512.03385)
-[Covid_19_LeNet](models/LeNet/)| This notebook use the  LeNet network architecture.| [Article](https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/)
-[Covid_19_MobileNetV2](models/MobileNetV2/)| This notebook use the  MobileNetV2 network architecture | [Article](https://arxiv.org/abs/1801.04381)
+[Covid_19_VGG16](models/VGG16/) | This notebook uses the  VGG16 network architecture.| [Article](https://arxiv.org/abs/1409.1556)
+[Covid_19_VGG19](models/VGG19/) | This notebook uses the  VGG19 network architecture.|[Article](https://arxiv.org/abs/1409.1556)
+[Covid_19_XCeption](models/XCeption/)| This notebook uses the  XCeption network architecture |[Article](https://arxiv.org/abs/1610.02357)
+[Covid_19_ResNet50](models/ResNet50/)| This notebook uses the  ResNet50 network architecture | [Article](https://arxiv.org/abs/1512.03385)
+[Covid_19_LeNet](models/LeNet/)| This notebook uses the  LeNet network architecture.| [Article](https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/)
+[Covid_19_MobileNetV2](models/MobileNetV2/)| This notebook uses the  MobileNetV2 network architecture | [Article](https://arxiv.org/abs/1801.04381)
+[Covid_19_CXRP](models/CXRP/)| This notebook uses a newly created architecture - CXRP (Covid Xray Profiler) |
 
 
