@@ -10,7 +10,7 @@
     - Two *Fully-Connected Layers*
     - A *softmax* classificator
     
-    Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_a3ZxD6INWP_PAIcCN5sBH-Yjcn?usp=sharing
+Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-MsizDWPX1Z3kVSlrAD6OrPNMjB
 
 
 ### Results
