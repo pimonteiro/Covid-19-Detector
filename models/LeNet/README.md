@@ -40,7 +40,7 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-
 
 Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 
-Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_a3ZxD6INWP_PAIcCN5sBH-Yjcn?usp=sharing
+Link to access the model weights: https://drive.google.com/drive/folders/1l6mpkca7rDe3-FzY2ZKLctroQEQOoFs2
 
 
 
@@ -60,5 +60,8 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_
 
 
 # Conclusion
+
+After several attemps trying to make a neural network with the Lenet architecture based of different settings, ranging from dropouts to learning rates or even different layers, the best attemp was the last one of this document (with the balanced dataset).
+Even tho the results were good, it still had problems distinguishing between Covid-19 and Pneumonia (similiar to other architectures explored).
 
 
