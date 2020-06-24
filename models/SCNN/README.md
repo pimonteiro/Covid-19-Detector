@@ -45,3 +45,6 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_
 
 
 # Conclusion
+Esta arquitetura é uma arquitetura bastante simples. Esperava-se que os resultados melhorassem no aumento da quantidade de blocos, mas verificou-se que os resultados eram praticamente os mesmos.Chegou a um dado numero de blocos, em que os resultados pioraram devido talvez à complexidade do modelo. 
+Os resultados finais foram muito identicos a resultados obtidos em modelos já experimentados anteriormente. Talvez com uma melhoria no dataset, se obtinha melhores resultados.
+
