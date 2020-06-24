@@ -3,6 +3,30 @@
 
 <!-- Model -->
 ## Importing pre-trained model with standard dataset
+ Lenet arquitecture:
+    
+    - Two sets: *Convolutional Layers* and *Pooling Layers*
+    - One *Flattening Convolution Layer*
+    - Two *Fully-Connected Layers*
+    - A *softmax* classificator
+    
+    Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_a3ZxD6INWP_PAIcCN5sBH-Yjcn?usp=sharing
+
+
+### Results
+
+![Accuracy during Training](acc.png "Accuracy during Training")
+
+![Loss during Training](loss.png "Loss during Training")
+
+
+#### Confusion Matrix
+![Confusion Matrix](cr.png "Confusion Matrix")
+
+#### Classification Report
+![Classification Report](cm.png "Classification Report")
+
+
 
 ## Importing pre-trained model with balanced dataset
 
