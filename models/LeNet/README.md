@@ -11,7 +11,7 @@
     - Two *Fully-Connected Layers*
     - A *softmax* classificator
     
-Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-MsizDWPX1Z3kVSlrAD6OrPNMjB
+Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-MsizDWPX1Z3kVSlrAD6OrPNMjB?usp=sharing
 
 
 ### Results
@@ -42,7 +42,7 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-
 
 Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 
-Link to access the model weights: https://drive.google.com/drive/folders/1l6mpkca7rDe3-FzY2ZKLctroQEQOoFs2
+Link to access the model weights: https://drive.google.com/drive/folders/1l6mpkca7rDe3-FzY2ZKLctroQEQOoFs2?usp=sharing
 
 
 
