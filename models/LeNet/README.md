@@ -21,11 +21,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4obi-
 ![Loss during Training](loss.png "Loss during Training")
 
 
-#### Confusion Matrix
-![Confusion Matrix](cr.png "Confusion Matrix")
-
 #### Classification Report
-![Classification Report](cm.png "Classification Report")
+![Classification Report](cr.png "Classification Report")
+
+#### Confusion Matrix
+![Confusion Matrix](cm.png "Confusion Matrix")
+
+
 
 
 
@@ -50,13 +52,11 @@ Link to access the model weights: https://drive.google.com/drive/folders/1l6mpkc
 
 ![Loss during Training](loss_lenet.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](lenet_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](lenet_cr.png "Confusion Matrix")
-
-#### Classification Report
-![Classification Report](lenet_cm.png "Classification Report")
-
+![Confusion Matrix](lenet_cm.png "Confusion Matrix")
 
 
 # Conclusion
