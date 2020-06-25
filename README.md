@@ -34,6 +34,8 @@ Being the data so unbalaced, a new dataset was made to fix this problem: https:/
 
 This was created by removing a lot of records with Pneumonia and Normal, randomly and generating new data of COVID-19 using some transformations: each real image was transformed 6 times. This was also made before the computation to speed up the process of training the various models (making image augmentation during the training caused epochs to take between 5 to 10 minutes to complete).
 
+The exploration of these datasets can be found in the [Covid_19_Data_Exploration.ipynb](dataset/Covid_19_Data_Exploration.ipynb) notebook.
+
 ## Models
 
 <img align="right" src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif" width="150" height="150"/> 
