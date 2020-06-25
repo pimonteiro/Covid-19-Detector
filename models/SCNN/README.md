@@ -45,6 +45,8 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_
 
 
 # Conclusion
-Esta arquitetura é uma arquitetura bastante simples. Esperava-se que os resultados melhorassem no aumento da quantidade de blocos, mas verificou-se que os resultados eram praticamente os mesmos.Chegou a um dado numero de blocos, em que os resultados pioraram devido talvez à complexidade do modelo. 
-Os resultados finais foram muito identicos a resultados obtidos em modelos já experimentados anteriormente. Talvez com uma melhoria no dataset, se obtinha melhores resultados.
+
+This architecture was developed with simplicity in mind, given the not so good results on the bigger models. As such, starting really simple, we hoped the increase of CNN's blocks would improve performance to a certain point, staying at 2 blocks.
+Maybe with a bigger dataset, the results would be better.
+
 

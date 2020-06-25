@@ -62,15 +62,15 @@ Link to model| Short description | Articles About|
 |             | Accuracy |          | Precision |           |          | Recall |           |         Notes         |
 |:-----------:|:--------:|:--------:|:---------:|:---------:|:--------:|:------:|:---------:|:---------------------:|
 |             |          | Covid-19 |   Normal  | Pneumonia | Covid-19 | Normal | Pneumonia |                       |
-|    VGG16    |    0.9   |   0.68   |    0.94   |    0.86   |   0.84   |   0.9  |    0.9    |       Retrained       |
+|    VGG16    |   0.90   |   0.68   |    0.94   |    0.86   |   0.84   |  0.90  |    0.90    |       Retrained       |
 |    VGG19    |   0.92   |   0.68   |    0.96   |    0.87   |   0.84   |  0.91  |    0.93   |       Retrained       |
 |    LeNet    |   0.87   |   0.52   |    0.89   |    0.87   |   0.81   |  0.91  |    0.81   |                       |
 |   XCeption  |   0.79   |   0.78   |    0.91   |    0.68   |   0.23   |  0.74  |    0.89   |   Freezed; Version 2  |
-|   ResNet50  |          |          |           |           |          |        |           |                       |
-| MobileNetV2 |   0.86   |     1    |    0.97   |    0.75   |   0.71   |  0.79  |    0.97   | Retrained; Overfitted |
-|   CXRP-3B   |   0.88   |   0.42   |    0.91   |    0.89   |    0.9   |   0.9  |    0.84   |        3 Blocks       |
+|   ResNet50  |   0.82   |   0.81   |    0.98   |    0.70   |   0.81   |  0.72  |    0.97   |        Freezed        |
+| MobileNetV2 |   0.86   |   1.00   |    0.97   |    0.75   |   0.71   |  0.79  |    0.97   | Retrained; Overfitted |
+|   CXRP-3B   |   0.88   |   0.42   |    0.91   |    0.89   |    0.9   |  0.90  |    0.84   |        3 Blocks       |
 |     SCNN    |          |          |           |           |          |        |           |                       |
-|  BraDetect  |          |          |           |           |          |        |           |                       |
+|  BraDetect  |   0.85   |   0.56   |    0.91   |    0.79   |   0.74   |  0.85  |    0.86   |                       |
 
 
 

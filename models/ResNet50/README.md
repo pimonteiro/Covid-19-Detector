@@ -32,7 +32,7 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 
 # ResNet50 2
 
-This model was training all the architecture ResNet 50 and add three layers equal ResNet50 1.
+This model was retrained with the imagenet weights and the three last layers equal to ResNet50 1.
 
 ### Results
 
@@ -50,4 +50,4 @@ This model was training all the architecture ResNet 50 and add three layers equa
 
 # Conclusion
 
-The frozen ResNet architecture was a horrible performance for this case. For ResNet 50 1 we did many editions in the architecture, but the has is same results.  Thus, we are training the all architecture the result was better. However, the ResNet50 2 still has a very false positive.
+The frozen ResNet architecture had a horrible performance for this case. For the ResNet50 1 we tried many iterations, but the results were the same: training from scratch resulted in a bad training. On the other hand, retraining using the already trained weights handled better results, but still overall worse than the other models explored.
