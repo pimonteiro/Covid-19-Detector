@@ -79,4 +79,4 @@ Link to model| Short description | Articles About|
 Of all the explored models the best one performance wise was the CXRP-3B, with a good balance in *recall* for all the different classes. One might think the VGG19 had a better development, but in fact the model isn't consistent enough to be have trustable predictions - the training appeared very random, even tho the predictions were right. All other models still had a very good performance, all with close numbers of *accuracy*, *precision* and *recall*.
 Despite others having better accuracy than the __CXRP-3B__, we tried to focus on the __Recall__ metric because it represents the percentage of positive cases of each class that were correctly assigned - we want to avoid giving false negatives, as well as always try to have the most confident of not having Covid-19 - reason being why we want to maximize the recall of Covid-19.
 
-To try and query the final model, please run this [notebook](models/CXRP/Query_CXRP-3B.ipynb).
+__To try and query the final model, please run this [notebook](models/CXRP/Query_CXRP-3B.ipynb).__
