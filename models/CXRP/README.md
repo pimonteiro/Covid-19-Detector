@@ -28,12 +28,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-U4gLU
 
 ![Loss during Training](loss_cxrp1b.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](cxrp1b_cr.png "Classification Report")
 
 #### Confusion Matrix
 ![Confusion Matrix](cxrp1b_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](cxrp1b_cr.png "Classification Report")
+
 
 
 <!-- Second Model -->
@@ -53,12 +54,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-wAjRy
 
 ![Loss during Training](loss_cxrp2b.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](cxrp2b_cr.png "Classification Report")
 
 #### Confusion Matrix
 ![Confusion Matrix](cxrp2b_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](cxrp2b_cr.png "Classification Report")
+
 
 
 <!-- Thrid Model -->
@@ -78,12 +80,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/10AmCEv
 
 ![Loss during Training](loss_cxrp3b.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](cxrp3b_cr.png "Classification Report")
 
 #### Confusion Matrix
 ![Confusion Matrix](cxrp3b_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](cxrp3b_cr.png "Classification Report")
+
 
 
 # Conclusion

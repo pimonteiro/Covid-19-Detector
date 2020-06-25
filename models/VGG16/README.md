@@ -17,12 +17,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-4MAlV
 
 ### Results
 
+#### Classification Report
+![Classification Report](vgg16_cr.png "Classification Report")
+
 
 #### Confusion Matrix
-![Confusion Matrix](vgg16_cr.png "Confusion Matrix")
+![Confusion Matrix](vgg16_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](vgg16_cm.png "Classification Report")
 
 <!-- Second Model -->
 
@@ -45,11 +46,12 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-3Cbhs
 ![Accuracy](acc_vgg16_1.png "Accuracy")
 ![Loss](loss_vgg16_1.png "Loss")
 
-#### Confusion Matrix
-![Confusion Matrix](vgg16_1_cr.png "Confusion Matrix")
-
 #### Classification Report
-![Classification Report](vgg16_1_cm.png "Classification Report")
+![Classification Report](vgg16_1_cr.png "Classification Report")
+
+#### Confusion Matrix
+![Confusion Matrix](vgg16_1_cm.png "Confusion Matrix")
+
 
 
 
@@ -73,11 +75,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1C6r2tB
 ![Accuracy](acc_vgg16_2.png "Accuracy")
 ![Loss](loss_vgg16_2.png "Loss")
 
-#### Confusion Matrix
-![Confusion Matrix](vgg16_2_cr.png "Confusion Matrix")
-
 #### Classification Report
-![Classification Report](vgg16_2_cm.png "Classification Report")
+![Classification Report](vgg16_2_cr.png "Classification Report")
+
+#### Confusion Matrix
+![Confusion Matrix](vgg16_2_cm.png "Confusion Matrix")
+
+
 
 
 <!-- Fourth Model -->
@@ -100,11 +104,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-MIoGg
 ![Accuracy](acc_vgg16_3.png "Accuracy")
 ![Loss](loss_vgg16_3.png "Loss")
 
-#### Confusion Matrix
-![Confusion Matrix](vgg16_3_cr.png "Confusion Matrix")
-
 #### Classification Report
-![Classification Report](vgg16_3_cm.png "Classification Report")
+![Classification Report](vgg16_3_cr.png "Classification Report")
+
+#### Confusion Matrix
+![Confusion Matrix](vgg16_3_cm.png "Confusion Matrix")
+
+
 
 
 # Conclusion

@@ -23,12 +23,13 @@ Link to access the model weights: https://drive.google.com/open?id=1-QBoxxij7FKn
 
 ![Loss during Training](loss_vgg19.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](vgg19_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](vgg19_cr.png "Confusion Matrix")
+![Confusion Matrix](vgg19_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](vgg19_cm.png "Classification Report")
+
 
 
 <!-- Second Model -->
@@ -52,12 +53,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/1-G6dT_
 
 ![Loss during Training](loss_vgg19_1.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](vgg19_1_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](vgg19_1_cr.png "Confusion Matrix")
+![Confusion Matrix](vgg19_1_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](vgg19_1_cm.png "Classification Report")
+
 
 The increase of complexity after the vgg19 model didn't increase it's performance, so we decided to keep it simple (as it was demonstrated here).
 
@@ -82,12 +84,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/10KMKur
 
 ![Loss during Training](loss_vgg19_2.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](vgg19_2_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](vgg19_2_cr.png "Confusion Matrix")
+![Confusion Matrix](vgg19_2_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](vgg19_2_cm.png "Classification Report")
+
 
 
 <!-- Fourth Model -->
@@ -111,12 +114,13 @@ Link to access the model weights: https://drive.google.com/drive/folders/10nay_I
 
 ![Loss during Training](loss_vgg19_3.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](vgg19_3_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](vgg19_3_cr.png "Confusion Matrix")
+![Confusion Matrix](vgg19_3_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](vgg19_3_cm.png "Classification Report")
+
 
 
 # Conclusion

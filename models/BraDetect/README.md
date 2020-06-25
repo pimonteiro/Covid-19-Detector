@@ -40,12 +40,14 @@ The BraDetect was designed with the objective of being specially efficient at an
 
 ![Accuracy & Loss](model_1loss.png "loss")
 
+#### Classification Report
+![Classification Report](model1_1.png "Classification Report")
+
 
 #### Confusion Matrix
-![Confusion Matrix](model1_1.png "Confusion Matrix")
+![Confusion Matrix](model1_2.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](model1_2.png "Classification Report")
+
 
 <!-- Second Model -->
 
@@ -84,12 +86,13 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 ![Accuracy & Loss](model_2accuracy.png "Accuracy")
 ![Accuracy & Loss](model_2loss.png "loss")
 
+#### Classification Report
+![Classification Report](model2_1.png  "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](model2_1.png "Confusion Matrix")
+![Confusion Matrix](model2_2.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](model2_2.png  "Classification Report")
+
 
 
 
@@ -132,11 +135,13 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 ![Accuracy & Loss](model_3loss.png "loss")
 
 
-#### Confusion Matrix
-![Confusion Matrix](model3_1.png "Confusion Matrix")
-
 #### Classification Report
-![Classification Report](model3_2.png  "Classification Report")
+![Classification Report](model3_1.png  "Classification Report")
+
+#### Confusion Matrix
+![Confusion Matrix](model3_2.png "Confusion Matrix")
+
+
 
 ## BraDetect 4
 
@@ -149,12 +154,13 @@ This is the third architecture with twice the epochs.
 ![Accuracy & Loss](model_4accuracy.png "Accuracy")
 ![Accuracy & Loss](model_4loss.png "loss")
 
+#### Classification Report
+![Classification Report](model4_1.png  "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](model4_1.png "Confusion Matrix")
+![Confusion Matrix](model4_2.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](model4_2.png  "Classification Report")
+
 
 
 

@@ -24,12 +24,12 @@ Link to access the model weights: https://drive.google.com/drive/folders/10WcXrJ
 
 ![Loss during Training](loss_mobilenetv2.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](mobilenetv2_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](mobilenetv2_cr.png "Confusion Matrix")
+![Confusion Matrix](mobilenetv2_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](mobilenetv2_cm.png "Classification Report")
 
 
 <!-- Second Model -->
@@ -56,12 +56,12 @@ Link to access the model weights: https://drive.google.com/drive/folders/101AhrY
 
 ![Loss during Training](loss_mobilenetv2_2.png "Loss during Training")
 
+#### Classification Report
+![Classification Report](mobilenetv2_2_cr.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](mobilenetv2_2_cr.png "Confusion Matrix")
+![Confusion Matrix](mobilenetv2_2_cm.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](mobilenetv2_2_cm.png "Classification Report")
 
 
 # Conclusion

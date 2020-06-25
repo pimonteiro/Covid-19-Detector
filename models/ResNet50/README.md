@@ -23,12 +23,13 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 
 ![Loss during Training](ResNet50_1loss.png "Loss during Training")
 
+### Classification Report
+![Classification Report](ResNet50_1.png "Classification Report")
 
 ### Confusion Matrix
-![Confusion Matrix](ResNet50_1.png "Confusion Matrix")
+![Confusion Matrix](ResNet50_2.png "Confusion Matrix")
 
-### Classification Report
-![Classification Report](ResNet50_2.png "Classification Report")
+
 
 # ResNet50 2
 
@@ -40,12 +41,13 @@ This model was retrained with the imagenet weights and the three last layers equ
 
 ![Loss during Training](ResNet50_2loss.png "Loss during Training")
 
+### Classification Report
+![Classification Report](ResNet50_3.png "Classification Report")
 
 ### Confusion Matrix
-![Confusion Matrix](ResNet50_3.png "Confusion Matrix")
+![Confusion Matrix](ResNet50_4.png "Confusion Matrix")
 
-### Classification Report
-![Classification Report](ResNet50_4.png "Classification Report")
+
 
 
 # Conclusion

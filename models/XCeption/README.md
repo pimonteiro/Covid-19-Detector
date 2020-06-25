@@ -17,12 +17,13 @@ Learning Rate of 0.001 using Adam, with decaying callback on keras.
 #### Training
 ![Accuracy & Loss](XCEPTION1_TRAING.png "Accuracy")
 
+#### Classification Report
+![Classification Report](XCEPTION1_CR.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](XCEPTION1_CR.png "Confusion Matrix")
+![Confusion Matrix](XCEPTION1_REPORT.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](XCEPTION1_REPORT.png "Classification Report")
+
 
 <!-- Second Model -->
 
@@ -45,12 +46,13 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 #### Training
 ![Accuracy & Loss](XCEPTION2_TRAINING.png "Accuracy")
 
+#### Classification Report
+![Classification Report](XCEPTION2_CR.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](XCEPTION2_CR.png "Confusion Matrix")
+![Confusion Matrix](XCEPTION2_REPORT.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](XCEPTION2_REPORT.png "Classification Report")
+
 
 
 
@@ -74,12 +76,12 @@ Learning Rate of 0.0001 using Adam, with decaying callback on keras.
 #### Training
 ![Accuracy & Loss](XCEPTION3_TRAINING.png "Accuracy")
 
+#### Classification Report
+![Classification Report](XCEPTION3_CR.png "Classification Report")
 
 #### Confusion Matrix
-![Confusion Matrix](XCEPTION3_CR.png "Confusion Matrix")
+![Confusion Matrix](XCEPTION3_REPORT.png "Confusion Matrix")
 
-#### Classification Report
-![Classification Report](XCEPTION3_REPORT.png "Classification Report")
 
 
 
